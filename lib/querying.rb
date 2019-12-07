@@ -32,10 +32,10 @@ end
 
 def select_series_title_with_most_human_characters
   "SELECT series.title, COUNT(characters.species)
-  WHERE characters.species = 'human'
   FROM series
   JOIN characters
   ON series.author_id = characters.author_id
+  WHERE characters.species = 'human'
   GROUP BY series.title;"
 end
 
