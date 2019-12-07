@@ -30,3 +30,8 @@ INSERT INTO authors (name) VALUES
 
 INSERT INTO character_books (book_id, character_id) VALUES
 (1,),
+(2,),
+(3,),
+(4,),
+(5,),
+(6,);
