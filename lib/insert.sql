@@ -12,12 +12,12 @@ INSERT INTO books (title, year, series_id) VALUES
 
 INSERT INTO characters (name, motto, species, author_id) VALUES
 ("larry", "yerrrrr", "alien", 1),
-("gary", "hurrrrrr", "human", 2),
+("gary", "hurrrrrr", "human", 1),
 ("harry", "sir", "hippo", 1),
-("jerry", "fur", "cat", 2),
-("sally", "lerrrr", "dog", 1),
+("jerry", "fur", "cat", 1),
+("sally", "lerrrr", "dog", 2),
 ("hairy", "yurrrrr", "pork", 2),
-("merr", "woah", "meatloaf", 1),
+("merr", "woah", "meatloaf", 2),
 ("yerr", "huh", "moo", 2);
 
 INSERT INTO subgenres (name) VALUES
@@ -29,9 +29,9 @@ INSERT INTO authors (name) VALUES
 ("Hurrrr");
 
 INSERT INTO character_books (book_id, character_id) VALUES
-(1,),
-(2,),
-(3,),
+(1,1),
+(2,1),
+(3,1),
 (4,),
 (5,),
 (6,);
