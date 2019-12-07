@@ -29,9 +29,9 @@ INSERT INTO authors (name) VALUES
 ("Hurrrr");
 
 INSERT INTO character_books (book_id, character_id) VALUES
-(1,1),
-(2,1),
-(3,1),
-(4,),
-(5,),
-(6,);
+(1, 1),
+(2, 1),
+(3, 1),
+(4, 2),
+(5, 2),
+(6, 2);
